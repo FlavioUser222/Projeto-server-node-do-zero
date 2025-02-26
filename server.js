@@ -24,6 +24,15 @@ server.get('/professores',(request,reply)=>{
     ]
    reply.send(professores)
 })
+server.get('/notas',(request,reply)=>{
+    let notas = [
+        {
+            materia:"Programação",
+            nota:10,
+        },
+    ]
+   reply.send(notas)
+})
 
 server.listen({ port: 3333 })
 
