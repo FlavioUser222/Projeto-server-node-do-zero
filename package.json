@@ -12,7 +12,4 @@
   "author": "",
   "license": "ISC",
   "description": "",
-"dependencies": {
-  "fastify": "^3.0.0",
-},
 }
