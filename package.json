@@ -9,4 +9,4 @@
     "dev": "node --watch server.js"
   },
   "license": "ISC"
-},
+}
