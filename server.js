@@ -35,9 +35,9 @@ server.get('/notas',(request,reply)=>{
 })
 
 
-server.post('/chamada')
-req.body.nome
-res.send
+// server.post('/chamada')
+// req.body.nome
+// res.send
 
 
 server.listen({ port: 3333 })
