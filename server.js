@@ -2,6 +2,8 @@
 import { fastify } from "fastify"
 
 const server = fastify()
+const port = 3333
+
 
 server.get('/',()=>{
     return 'hello world'
@@ -40,5 +42,5 @@ server.get('/notas',(request,reply)=>{
 // res.send
 
 
-server.listen({ port: 3333 })
+server.listen(port)
 
